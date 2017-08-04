@@ -1,5 +1,6 @@
 import React from 'react';
 import io from 'socket.io-client';
+import Header from './parts/header';
 
 class App extends React.Component {
 
@@ -9,12 +10,15 @@ class App extends React.Component {
   }
 
   connect() {
-    alert("Connected: " + this.id);
-    console.log(this.id);
+    console.log("Connected: " + this.id);
   }
 
   render() {
-    return (<h1>Hello World from Socket App</h1>);
+    return (
+      <div>
+        <Header title="New Header" />
+      </div>
+    );
   }
 }
 
