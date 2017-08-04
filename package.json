@@ -1,5 +1,5 @@
- {
-  "name": "Polling App",
+{
+  "name": "setup",
   "version": "0.0.1",
   "main": "app-server.js",
   "license": "MIT",
@@ -13,6 +13,8 @@
     "express": "^4.15.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
     "webpack": "^3.4.1"
   },
   "scripts": {
